@@ -3357,6 +3357,14 @@ graphql-codegen-plugin-helpers@0.16.1:
     graphql-codegen-core "0.16.1"
     import-from "2.1.0"
 
+graphql-codegen-plugin-helpers@0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-plugin-helpers/-/graphql-codegen-plugin-helpers-0.17.0.tgz#f65edde8a0810c457a85171d2e8bd0d29c8c7ac3"
+  integrity sha512-zcTvtvJqGrGTUjM9qz4vGml967uORX5yeSBc9n4du+Ah+y4TLG0GdjmEqfP7Jokwb8YpCGKivY6hXF8AZ7yPdw==
+  dependencies:
+    graphql-codegen-core "0.17.0"
+    import-from "2.1.0"
+
 graphql-codegen-typescript-apollo-angular@^0.16.1:
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-apollo-angular/-/graphql-codegen-typescript-apollo-angular-0.16.1.tgz#a2778afb248419a8a2b6ddcc4ad32268621ab9cc"
@@ -3385,12 +3393,22 @@ graphql-codegen-typescript-common@0.16.1, graphql-codegen-typescript-common@^0.1
     graphql-codegen-core "0.16.1"
     graphql-codegen-plugin-helpers "0.16.1"
 
-graphql-codegen-typescript-server@^0.16.1:
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-server/-/graphql-codegen-typescript-server-0.16.1.tgz#d0ddab6487a9700a4b99f867e19666936300b7d7"
-  integrity sha512-AWetg8DchXfEfqoN1OrgmIM5R7fo9fZKtBruoVmrjb2FXCUWkb1wAxAdSPraMBXn/pGk8rtfq4G9BJ86KK5HZQ==
+graphql-codegen-typescript-common@0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-common/-/graphql-codegen-typescript-common-0.17.0.tgz#76cfeefa92ee8420f2c9a687576fd5ac3d6e14fb"
+  integrity sha512-tUaJB4fuHHgZa1JFroe5V4kIn69HKmKwaHEvizXhuAmJUnHGThzjnn71Ot0FMSpF6RLcMf/adDsNts/BQrUEYg==
   dependencies:
-    graphql-codegen-typescript-common "0.16.1"
+    change-case "3.1.0"
+    common-tags "1.8.0"
+    graphql-codegen-core "0.17.0"
+    graphql-codegen-plugin-helpers "0.17.0"
+
+graphql-codegen-typescript-server@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-server/-/graphql-codegen-typescript-server-0.17.0.tgz#6c6e70cfe72d73db33662469d83c3a0edcaf3178"
+  integrity sha512-70EqTJTJ1K8nVvhkpTdzmY4k04/OV1KsGEZeQeH7rPtVxJ2acrxlpFAJIqjQgsCPSnuZJotQfZDNAWmn4bd5nQ==
+  dependencies:
+    graphql-codegen-typescript-common "0.17.0"
 
 graphql-config@2.2.1:
   version "2.2.1"
